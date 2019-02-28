@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_cfa421a7a0cb40cd9f8c28bbe0fa3198 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_cfa421a7a0cb40cd9f8c28bbe0fa3198" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_cfa421a7a0cb40cd9f8c28bbe0fa3198 = L.map(
+        'map_cfa421a7a0cb40cd9f8c28bbe0fa3198', {
+        center: [46.7985624, 8.2319736],
+        zoom: 8.2,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_1d0e773d0d2340d6abc26c65f20eae66 = L.tileLayer(
+        'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_cfa421a7a0cb40cd9f8c28bbe0fa3198);
+    
+            var circle_marker_53f16ff894c94ccd8cb04eec44da2779 = L.circleMarker(
+                [46.5218269, 6.6327025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#006666",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#99FFFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cfa421a7a0cb40cd9f8c28bbe0fa3198);
+            
+    
+            var popup_8cfeb75a6f744ac6a68f901e35b7de84 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ae1fa41cc8004e2293207f4ae763d354 = $(`<div id="html_ae1fa41cc8004e2293207f4ae763d354" style="width: 100.0%; height: 100.0%;">Lausanne</div>`)[0];
+                popup_8cfeb75a6f744ac6a68f901e35b7de84.setContent(html_ae1fa41cc8004e2293207f4ae763d354);
+            
+
+            circle_marker_53f16ff894c94ccd8cb04eec44da2779.bindPopup(popup_8cfeb75a6f744ac6a68f901e35b7de84)
+            ;
+
+            
+        
+    
+            var circle_marker_ad8e5c2ae40a4c4f92bdf4bf01cc9b4d = L.circleMarker(
+                [46.2017559, 6.146601400000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#006666",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00FFFF",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 22.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cfa421a7a0cb40cd9f8c28bbe0fa3198);
+            
+    
+            var popup_a6526046908a465da21ff23550681531 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9e69363b89264ea49b701dc16f14a4ec = $(`<div id="html_9e69363b89264ea49b701dc16f14a4ec" style="width: 100.0%; height: 100.0%;">Genf</div>`)[0];
+                popup_a6526046908a465da21ff23550681531.setContent(html_9e69363b89264ea49b701dc16f14a4ec);
+            
+
+            circle_marker_ad8e5c2ae40a4c4f92bdf4bf01cc9b4d.bindPopup(popup_a6526046908a465da21ff23550681531)
+            ;
+
+            
+        
+    
+            var circle_marker_128e8df143ca4357b7275406a280663c = L.circleMarker(
+                [47.55810770000001, 7.5878261],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#006666",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CCCC",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 92.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cfa421a7a0cb40cd9f8c28bbe0fa3198);
+            
+    
+            var popup_25a65ac7522046fdbc4d9c917a312fe7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_de24b5e067414cd3bc3bc8a6e986378f = $(`<div id="html_de24b5e067414cd3bc3bc8a6e986378f" style="width: 100.0%; height: 100.0%;">Basel</div>`)[0];
+                popup_25a65ac7522046fdbc4d9c917a312fe7.setContent(html_de24b5e067414cd3bc3bc8a6e986378f);
+            
+
+            circle_marker_128e8df143ca4357b7275406a280663c.bindPopup(popup_25a65ac7522046fdbc4d9c917a312fe7)
+            ;
+
+            
+        
+    
+            var circle_marker_21809f4f3a6b46f8b446457f72317ca2 = L.circleMarker(
+                [47.3769434, 8.5414061],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#006666",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#009999",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 48.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cfa421a7a0cb40cd9f8c28bbe0fa3198);
+            
+    
+            var popup_b8b89fba89354fd1b57ab3ffa18f5ff6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e7c4b551948147f8a4d21dc737136258 = $(`<div id="html_e7c4b551948147f8a4d21dc737136258" style="width: 100.0%; height: 100.0%;">Zürich</div>`)[0];
+                popup_b8b89fba89354fd1b57ab3ffa18f5ff6.setContent(html_e7c4b551948147f8a4d21dc737136258);
+            
+
+            circle_marker_21809f4f3a6b46f8b446457f72317ca2.bindPopup(popup_b8b89fba89354fd1b57ab3ffa18f5ff6)
+            ;
+
+            
+        
+</script>
