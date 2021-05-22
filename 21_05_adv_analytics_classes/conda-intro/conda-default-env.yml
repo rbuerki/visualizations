@@ -1,0 +1,44 @@
+name: py-default
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  # Code formatters
+  - yapf
+  # Linting
+  - mypy
+  # Refactoring
+  - rope
+  # Jupyter
+  - jupyter
+  - jupyter_contrib_nbextensions
+  - nbdime
+  # SQL packages
+  - sqlalchemy
+  - pyodbc
+  - ipython-sql
+  # Data manipulation / validation / calculations / models / storing
+  - bulwark
+  - numpy
+  - pandas
+  - pandas-profiling
+  - scipy
+  - scikit-learn
+  - pyarrow
+  - scikit-optimize
+  - statsmodels
+  # Plotting
+  - matplotlib
+  - seaborn
+  # Testing and development
+  - pytest
+  - setuptools
+  - pip
+  # Misc
+  - tqdm
+  - openpyxl
+  # Dependencies for featuretools which should be installed with conda
+  - dask
+  - pip:
+      - "O:\\DMIS Jemas\\20 Sourcecode\\90_Python\\bcag\\bcag_0.12\\dist\\bcag-0.12-py3-none-any.whl"
